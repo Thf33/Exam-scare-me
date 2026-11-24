@@ -1,0 +1,7 @@
+:root{--bg:#f6f8fd;--card:#fff;--tx:#14213d;--pri:#14285b;--bd:#dde3f0}
+@media(prefers-color-scheme:dark){:root{--bg:#0e1424;--card:#171f35;--tx:#e8ecf7;--pri:#5b8cff;--bd:#27314d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:14px}h1{color:var(--pri);margin:0}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px;margin:10px 0}
+input,select,textarea,button{font:inherit;padding:8px;border-radius:8px;border:1px solid var(--bd);width:100%;margin:4px 0;background:var(--bg);color:var(--tx)}
+button{background:var(--pri);color:var(--bg);font-weight:600;cursor:pointer}
